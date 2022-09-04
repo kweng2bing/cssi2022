@@ -1,0 +1,179 @@
+.hidden {
+  display: none;
+}
+
+.bg-img {
+  background-image:url('https://i.ibb.co/9VkTL6t/imageedit-1-6761845356.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+/*   width: 150vw; */
+}
+
+#headertitle{
+/*   background-color: white; */
+  color: #fbc824;
+  text-shadow: -1px -1px 0 #24669d, 1px -1px 0 #3a63aa, -1px 1px 0 #3a6ba1, 1px 1px 0 #366dc2;
+  font-size: 64px;
+}
+
+.footer{
+    background-color: #fafafa;
+    padding: 3rem 1.5rem 6rem;
+}
+.footer-text{
+  font-size: 12px;
+  
+}
+
+html, body {
+  height: 100%;
+  width: 100%;                                                        
+    font-family: '8BIT WONDER';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.cdnfonts.com/s/19901/8-BIT WONDER.woff') format('woff'); 
+}
+
+.tile {
+  border-color: black;
+}
+
+#playerpick{
+  display: flex;
+  flex-direction: row;
+}
+
+#player{
+  display: flex;
+  flex-direction: row;
+}
+
+#image{
+  height: 50%;
+}
+
+.player1ability{
+  color: white;
+}
+
+.player2ability{
+  color: white;
+}
+
+.colorless{
+  background-color: #A8A77A;
+}
+.fire{
+  background-color: #EE8130;
+}
+.water{
+  background-color: #6390F0;
+}
+.lightning{
+  background-color: #F7D02C;
+}
+.grass{
+  background-color: #7AC72C;
+}
+.fighting{
+  background-color: #C22E28;
+}
+.psychic{
+  background-color: #F95587;
+}
+.dragon{
+  background-color: #6F35FC;
+}
+.darkness{
+  background-color: #705746;
+}
+.metal{
+  background-color: #B7B7CE;
+}
+.fairy{
+  background-color: #D685AD;
+}
+
+.vsletters1{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.vscard{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#buttons{
+  background-color: #3c5aa6;
+  color: white
+}
+
+#music{
+/* display: flex; */
+  text-align: center;
+}
+
+.errormessage1{
+  text-align: left;
+  color: red;
+}
+.errormessage2{
+  text-align: left;
+  color: red;
+}
+
+.secretmessage1{
+  text-align: left;
+  color: red;
+}
+.secretmessage2{
+  text-align: left;
+  color: red;
+}
+
+@font-face {
+    font-family: '8BIT WONDER';
+    font-style: normal;
+    font-weight: 400;
+    src: local('8BIT WONDER'), url('https://fonts.cdnfonts.com/s/19901/8-BIT WONDER.woff') format('woff');
+  
+}
+
+input[type="text"]
+{
+    font-family: '8BIT WONDER';
+  font-size:15px;
+    font-style: normal;
+    src: local('8BIT WONDER'), url('https://fonts.cdnfonts.com/s/19901/8-BIT WONDER.woff') format('woff');
+}
+
+input[type="password"]
+{
+    font-family: '8BIT WONDER';
+font-size:14px;
+    font-style: normal;
+    src: local('8BIT WONDER'), url('https://fonts.cdnfonts.com/s/19901/8-BIT WONDER.woff') format('woff');
+}
+.button01 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.refreshbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}

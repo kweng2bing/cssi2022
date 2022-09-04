@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pokemon Showdown</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link href="http://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
+                
+</head>
+
+<body>
+  <section class="hero is-medium notification has-text-centered bg-img ">
+    <div class="hero-body">
+      <div class="">
+        <p id="headertitle" class="title"">Welcome to Pokemon Showdown</p>
+        
+      </div>
+    </div>
+  </section>
+  <!--   <section>Let the games begin</section> -->
+  <!--   Player 1 Card -->
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-one-quarter">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image" id="player1image">
+            <img
+              src="https://i5.walmartimages.com/asr/0a32d419-d745-45c0-b367-927f43a0b9fb.bd571c5c075cece9f4893f1cf10926c4.jpeg"
+              alt="Placeholder image" />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4" id="player1">Player 1</p>
+            <p class="subtitle is-7 player1subtitle">Type the Pokemon you wish to use</p>
+            <section id="player1hp" class="hidden">
+              <p>HP: </p>
+              <progress id="progresspokemon1hp" class="progress is-success is-medium" value="100"
+                max="100">80%</progress>
+            </section>
+            <figure id="player1Section">
+              <input class="input is-focused" type="text" placeholder="Pokemon Name" id="input1"></input>
+              <input class="hidden input is-focused" type="password" placeholder="super secret password" id="secretpassword1"></input>
+              <p class = "subtitle hidden is-7 errormessage1">Please enter a valid Pokemon</p>
+              <p class = "hidden subtitle is-7 secretmessage1"></p>
+              <a id="enter1">Enter</a>
+            </figure>
+            <p id="pokemon1hp"></p>
+            <p id="pokemon1type"></p>
+          </div>
+        </div>
+        <a class="hidden player1ability player1ability1 card-footer-item button is-centered">Use </a>
+        <a class="hidden player1ability player1ability2 card-footer-item button is-centered">Use </a>
+      </div>
+    </div>
+
+    <div class="vscard column is-one-quarter">
+      <div class="card">
+        <div class="card-content">
+          <div class="vsletters1 content">
+            <a id="buttons" class="startbutton hidden card-footer-item button is-centered">Start Game</a>
+            <p class="vsletters title is-6">Waiting for players to ready up...</p>
+            <a id="buttons" class="playagain hidden card-footer-item button is-centered" onClick="refreshPage()">Play Again</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--     Player 2 Card -->
+    <div class="column is-one-quarter">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image" id="player2image">
+            <img
+              src="https://i5.walmartimages.com/asr/0a32d419-d745-45c0-b367-927f43a0b9fb.bd571c5c075cece9f4893f1cf10926c4.jpeg"
+              alt="Placeholder image" />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4" id="player2">Player 2</p>
+            <p class="subtitle is-7 player2subtitle">Type the Pokemon you wish to use</p>
+            <section id="player2hp" class="hidden">
+              <p>HP: </p>
+              <progress id="progresspokemon2hp" class="progress is-success is-medium" value="80" max="80">80%</progress>
+            </section>
+            <figure id="player2Section">
+              <input class="input is-focused" type="text" placeholder="Pokemon Name" id="input2"></input>
+              <input class="hidden input is-focused" type="password" placeholder="super secret password" id="secretpassword2"></input>
+              <p class = "hidden subtitle is-7 errormessage2">Please enter a valid Pokemon</p>
+              <p class = "hidden subtitle is-7 secretmessage2"></p>
+              <a id="enter2">Enter</a>
+            </figure>
+            <p id="pokemon2hp"></p>
+            <p id="pokemon2type"></p>
+          </div>
+        </div>
+        <a class="hidden player2ability player2ability1 card-footer-item button is-centered">Use </a>
+        <a class="hidden player2ability player2ability2 card-footer-item button is-centered">Use </a>
+      </div>
+    </div>
+  </div>
+<!--     Music -->
+    <div id = "music">
+    <p class="title">Enjoy Some Music with your game</p>
+    <p></p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/rg6CiPI6h2g?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+  </div>
+  <!--   Footer -->
+    <footer class="footer">
+     <div class="content has-text-centered">
+    <p class="footer-text">
+     This project is created by MD Rahman and Kalvin Weng. Many thanks to Jake Nichols, Billy Hardy, Caitlin Rubin, Reid Baker, Surbhi Madan, Allison Htun, and everyone else in Google CSSI for making this possible 
+    </p>
+  </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
