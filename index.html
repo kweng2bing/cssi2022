@@ -1,123 +1,294 @@
-<!DOCTYPE html>
+
+                <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Loid Forger's Personal Portfolio</title>
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Pokemon Showdown</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <link href="http://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
-                
-</head>
+  <body>
 
-<body>
-  <section class="hero is-medium notification has-text-centered bg-img ">
-    <div class="hero-body">
-      <div class="">
-        <p id="headertitle" class="title"">Welcome to Pokemon Showdown</p>
-        
+
+
+        <!-- Begin Hero Content-->
+        <section class="hero is-fullheight is-success has-bg-img">
+  <!-- Hero head: will stick at the top -->
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    
+    <div class="container has-text-centered">
+            <h1 class="subtitle" style ="font-family: 'Poppins', sans-serif;">Hey there, I'm</h1>
+            <h2 class="title" style = "font-family: 'Rubik Mono One', sans-serif; font-size: 56px; text-shadow: 2px 2px #000000;">Loid <br>Forger</h2>
+            <h1 class="subtitle profession" style ="font-family: 'Poppins', sans-serif; font-size: 24px;">A PROFESSIONAL SPY</h1>
+          </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li>
+          <a href="#about-me">Overview</a>
+            </li>
+          <li>
+            <a href="#accomplishments">Life of Loid Forger</a>
+            </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </div>
+</section>
+      </section>
+      <!-- End Hero -->
     </div>
-  </section>
-  <!--   <section>Let the games begin</section> -->
-  <!--   Player 1 Card -->
-  <div class="columns is-centered is-variable is-5">
-    <div class="column is-one-quarter">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image" id="player1image">
-            <img
-              src="https://i5.walmartimages.com/asr/0a32d419-d745-45c0-b367-927f43a0b9fb.bd571c5c075cece9f4893f1cf10926c4.jpeg"
-              alt="Placeholder image" />
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="content">
-            <p class="title is-4" id="player1">Player 1</p>
-            <p class="subtitle is-7 player1subtitle">Type the Pokemon you wish to use</p>
-            <section id="player1hp" class="hidden">
-              <p>HP: </p>
-              <progress id="progresspokemon1hp" class="progress is-success is-medium" value="100"
-                max="100">80%</progress>
-            </section>
-            <figure id="player1Section">
-              <input class="input is-focused" type="text" placeholder="Pokemon Name" id="input1"></input>
-              <input class="hidden input is-focused" type="password" placeholder="super secret password" id="secretpassword1"></input>
-              <p class = "subtitle hidden is-7 errormessage1">Please enter a valid Pokemon</p>
-              <p class = "hidden subtitle is-7 secretmessage1"></p>
-              <a id="enter1">Enter</a>
-            </figure>
-            <p id="pokemon1hp"></p>
-            <p id="pokemon1type"></p>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <br>
+            <h1 class="title has-text-centered section-title"> About Me</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger">
+                <strong>Loid Forger is the main protagonist of the SPY x FAMILY series. He has discarded everything about his past to work for his country as an undercover spy who acts under the codename "Twilight".</strong>
+              </p>
+              <br />
+              <p>
+                Current mission: Monitor Donovan Desmond, a political extremist and chairperson of the National Unity Party in Ostania
+                Wife: Yor Forger  
+                Adopted Daughter: Anya Forger 
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>Other Occupations</strong>
+                  </p>
+                  <p class="subheading">                 
+Intelligence Agent
+Psychiatrist (False Front)
+Sergeant (Formerly)
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>Affiliations</strong>
+                  </p>
+                  <p class="subheading">
+                    
+Westalis
+WISE
+Berlint General Hospital
+Westalis Army (Formerly)
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>View my portfolio</strong>
+                  </p>
+                  <p class="subheading">
+                    wise.loidforger@example.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 right-image " data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="https://otakusinh.files.wordpress.com/2022/06/loid-1.png?w=1024"
+                alt="Loid Forger Image"
+              />
+            </div>
           </div>
         </div>
-        <a class="hidden player1ability player1ability1 card-footer-item button is-centered">Use </a>
-        <a class="hidden player1ability player1ability2 card-footer-item button is-centered">Use </a>
       </div>
-    </div>
-
-    <div class="vscard column is-one-quarter">
-      <div class="card">
-        <div class="card-content">
-          <div class="vsletters1 content">
-            <a id="buttons" class="startbutton hidden card-footer-item button is-centered">Start Game</a>
-            <p class="vsletters title is-6">Waiting for players to ready up...</p>
-            <a id="buttons" class="playagain hidden card-footer-item button is-centered" onClick="refreshPage()">Play Again</a>
+      <!-- End About Me Content -->
+      
+      <div class="section-dark resume" id="accomplishments">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Life of Loid Forger
+              </h1>
+            </div>
+            <div class="column is-10 has-text-centered is-offset-1">
+              <h2 class="subtitle">
+<iframe width="620" height="420" src="https://www.youtube.com/embed/cJeVqSodg8k">
+</iframe>
+              </h2>
+              <form action="gallery.html">
+                <a class="button is-link">Click for a surprise
+</a>
+              </form>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!--     Player 2 Card -->
-    <div class="column is-one-quarter">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image" id="player2image">
-            <img
-              src="https://i5.walmartimages.com/asr/0a32d419-d745-45c0-b367-927f43a0b9fb.bd571c5c075cece9f4893f1cf10926c4.jpeg"
-              alt="Placeholder image" />
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="content">
-            <p class="title is-4" id="player2">Player 2</p>
-            <p class="subtitle is-7 player2subtitle">Type the Pokemon you wish to use</p>
-            <section id="player2hp" class="hidden">
-              <p>HP: </p>
-              <progress id="progresspokemon2hp" class="progress is-success is-medium" value="80" max="80">80%</progress>
-            </section>
-            <figure id="player2Section">
-              <input class="input is-focused" type="text" placeholder="Pokemon Name" id="input2"></input>
-              <input class="hidden input is-focused" type="password" placeholder="super secret password" id="secretpassword2"></input>
-              <p class = "hidden subtitle is-7 errormessage2">Please enter a valid Pokemon</p>
-              <p class = "hidden subtitle is-7 secretmessage2"></p>
-              <a id="enter2">Enter</a>
-            </figure>
-            <p id="pokemon2hp"></p>
-            <p id="pokemon2type"></p>
+      <!-- Progress Bars -->
+      <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Skills</h1>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Strength</h1>
+              <progress class="progress is-link" value="70" max="100">30%</progress>
+              <h1>Endurance</h1>
+              <progress class="progress is-link" value="65" max="100">30%</progress>
+              <h1>Various Tactical Skills</h1>
+              <progress class="progress is-link"  value="75" max="100">45%</progress>
+              <h1>Combat Skills</h1>
+              <progress class="progress is-link" value="80" max="100">60%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Intelligence</h1>
+              <progress class="progress is-link" value="85" max="100">30%</progress>
+              <h1>Disguise</h1>
+              <progress class="progress is-link" value="95" max="100">30%</progress>
+              <h1>Speed</h1>
+              <progress class="progress is-link" value="70" max="100">45%</progress>
+              <h1>Reaction Speed</h1>
+              <progress class="progress is-link" value="60" max="100">60%</progress>
+            </div>
           </div>
         </div>
-        <a class="hidden player2ability player2ability1 card-footer-item button is-centered">Use </a>
-        <a class="hidden player2ability player2ability2 card-footer-item button is-centered">Use </a>
       </div>
-    </div>
-  </div>
-<!--     Music -->
-    <div id = "music">
-    <p class="title">Enjoy Some Music with your game</p>
-    <p></p>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/rg6CiPI6h2g?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-  </div>
-  <!--   Footer -->
-    <footer class="footer">
-     <div class="content has-text-centered">
-    <p class="footer-text">
-     This project is created by MD Rahman and Kalvin Weng. Many thanks to Jake Nichols, Billy Hardy, Caitlin Rubin, Reid Baker, Surbhi Madan, Allison Htun, and everyone else in Google CSSI for making this possible 
-    </p>
-  </div>
-  </footer>
-  <script src="script.js" defer></script>
-</body>
+      <!-- End Skills Content -->
 
+  
+      <!-- Begin Contact Content -->
+      <div class="section-dark contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Get in touch
+              </h1>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <form
+                action="https://formspree.io/email@example.com"
+                method="POST"
+              >
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Ex. Jane Smith"
+                      name="Name"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="Ex. hello@arctheme.com"
+                      name="Email"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      placeholder="Textarea"
+                      name="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control ">
+                    <button class="button submit-button">
+                      Submit&nbsp;&nbsp;
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/showcase.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
 </html>
